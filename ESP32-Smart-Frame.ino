@@ -1,9 +1,9 @@
 /**
  * ----------------------------------------------------------------------------
  * PROJECT: ESP32 Smart Photo Frame & Weather Station
- * AUTHOR:  Chiron & Gemini
+ * AUTHOR:  Chiron 
  * VERSION: 3.0 (Stable Release)
- * LICENSE: MIT
+
  * ----------------------------------------------------------------------------
  * DESCRIPTION:
  * A multitasking smart frame featuring:
