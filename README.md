@@ -1,4 +1,4 @@
-# ESP32 Smart Photo Frame & Weather Station 🖼️🌦️
+# ESP32 Smart Frame
 
 A multitasking smart frame powered by an ESP32. Features 6 interactive animated faces, real-time weather, a digital clock, and a web portal for uploading photos.
 
@@ -16,6 +16,13 @@ A multitasking smart frame powered by an ESP32. Features 6 interactive animated 
 * XPT2046 Touch Controller
 * Micro SD Card Module
 
+## 🖨️ 3D Printed Frame
+This project includes custom STL files to print a sleek enclosure for the electronics.
+
+* **📂 [Download STL Files](./stl)**
+* **Material:** PLA or PETG recommended.
+* **Infill:** 10% is sufficient.
+* **Supports:** Required for the `body.stl` and `head.stl`.
 
 ## 📦 Installation
 1.  **Install Libraries:**
@@ -31,3 +38,9 @@ A multitasking smart frame powered by an ESP32. Features 6 interactive animated 
     * Ensure `cifre125.c` is in the same folder as the `.ino` file.
 4.  **Upload:**
     * Open `ESP32_Smart_Frame.ino` in Arduino IDE and upload.
+
+## 🌐 Web Interface
+Once connected to WiFi, type the IP address displayed on the screen into your browser to:
+* Change the current Face.
+* Update WiFi / City settings.
+* Upload photos to the SD card gallery.
